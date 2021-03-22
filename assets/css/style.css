@@ -1,0 +1,65 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+body { 
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+  }
+   /* Applies 20px to every side (top, right, bottom, left) */
+ header {
+    padding: 20px;
+  }
+  /* Applies 20px to the top and bottom, then 35px to the left and right */
+  header {
+    padding: 20px 35px;
+  }
+  /* Applies 10px to the top, 15px to the right, 20px to the bottom, 25px to the left (in that specific clockwise order) */
+  header {
+    padding: 10px 15px 20px 25px;
+  }
+  /* Explicitly list the side it should be applied to*/
+  header {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+  }
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+  }
+  header a {
+    color: #fce138;
+  }
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  header nav ul li {
+    display: inline;
+  }
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+  }
